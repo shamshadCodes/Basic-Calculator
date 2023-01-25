@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <form>
+    <input type="text" id="display" disabled>
+    <br>
+    <input type="button" value="1" onclick="displayNum(1)">
+    <input type="button" value="2" onclick="displayNum(2)">
+    <input type="button" value="3" onclick="displayNum(3)">
+    <input type="button" value="+" onclick="displayNum('+')">
+    <br>
+    <input type="button" value="4" onclick="displayNum(4)">
+    <input type="button" value="5" onclick="displayNum(5)">
+    <input type="button" value="6" onclick="displayNum(6)">
+    <input type="button" value="-" onclick="displayNum('-')">
+    <br>
+    <input type="button" value="7" onclick="displayNum(7)">
+    <input type="button" value="8" onclick="displayNum(8)">
+    <input type="button" value="9" onclick="displayNum(9)">
+    <input type="button" value="*" onclick="displayNum('*')">
+    <br>
+    <input type="button" value="c" onclick="clearDisplay()">
+    <input type="button" value="0" onclick="displayNum(0)">
+    <input type="button" value="=" onclick="calculate()">
+    <input type="button" value="/" onclick="displayNum('/')">
+    <br>
+  </form>
+  <script src="calculator.js"></script>
+</body>
+</html>
